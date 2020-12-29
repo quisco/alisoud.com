@@ -1,0 +1,65 @@
+
+{
+	margin: 0px;
+	padding: 0px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background: green;
+	font-family: cambria;
+}
+a
+{
+	position:relative;
+	display:inline-block;
+	padding: 15px 15px;
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	text-decoration: none;
+	font-size: 24px;
+	overfolw: hidden;
+	transition: 0s;
+}
+
+a:hover
+{
+	color: white;
+	background: grey;
+	box-shadow: 0 0 10px white, 0 0 40px white, 0 0 80px white, 0 0 100px white;
+	transition-delay:0s;
+}
+a span
+{
+	position: absolute;
+	display: block;
+}
+
+
+button
+{
+	position:relative;
+	display:inline-block;
+	
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	text-decoration: none;
+	font-size: 24px;
+	overfolw: hidden;
+	transition: 0s;
+}
+
+button:hover
+{
+	color: white;
+	background: #031321;
+	box-shadow: 0 0 10px #031321, 0 0 40px #031321, 0 0 80px #031321, 0 0 100px #031321;
+	transition-delay:0s;
+}
+button span
+{
+	position: absolute;
+	display: block;
+}
+
